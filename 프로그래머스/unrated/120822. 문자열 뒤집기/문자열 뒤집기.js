@@ -1,4 +1,3 @@
 function solution(my_string) {
-    let str_arr = [...my_string].reverse();
-    return str_arr.join('');
+    return [...my_string].reverse().join('');
 }
