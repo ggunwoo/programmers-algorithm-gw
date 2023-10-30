@@ -11,9 +11,6 @@ function solution(my_string, is_suffix) {
         }
         n++
     }
-    console.log(my_string.slice(3, my_string.length), is_suffix)
-    
-    console.log(n)
     
     return answer;
 }
