@@ -3,7 +3,7 @@ function solution(n) {
     let j = 0;
     while(true){
         if(n<sum(j)) break;
-        j++
+        j++ 
     }
     return j
 }
